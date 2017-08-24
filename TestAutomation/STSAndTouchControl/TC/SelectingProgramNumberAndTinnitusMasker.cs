@@ -97,7 +97,7 @@ namespace STSAndTouchControl.TC
             // Validation## The setup screen is displayed The app shall send the pairing command
             Report.Log(ReportLevel.Info, "Section", "Validation## The setup screen is displayed The app shall send the pairing command", new RecordItemIndex(5));
             
-            ValidateContentsContains("A confirmation sound played from the hearing aids indicates a successful pairing.\r\n\r\nDid you hear the confirmation sound?", ValueConverter.ArgumentFromString<bool>("isFound", "True"));
+            ValidateContentsContains("A confirmation sound played from the hearing aids indicates a successful pairing.\n\nDid you hear the confirmation sound?", ValueConverter.ArgumentFromString<bool>("isFound", "True"));
             Delay.Milliseconds(0);
             
             // Step## If successful pairing sound comes from HIs, Press Yes.
@@ -130,7 +130,7 @@ namespace STSAndTouchControl.TC
             // Validation## Verify "Which programs is the tinnitus program?"
             Report.Log(ReportLevel.Info, "Section", "Validation## Verify \"Which programs is the tinnitus program?\"", new RecordItemIndex(16));
             
-            ValidateContentsContains("Which programs is the tinnitus program?\r\n\r\nIf you do not know, you can ask your hearing care professional and change this setting later.", ValueConverter.ArgumentFromString<bool>("isFound", "True"));
+            ValidateContentsContains("Which programs is the tinnitus program?\n\nIf you do not know, you can ask your hearing care professional and change this setting later.", ValueConverter.ArgumentFromString<bool>("isFound", "True"));
             Delay.Milliseconds(0);
             
             // Step## Select 3 programs from the list for Tinnitus Masker.

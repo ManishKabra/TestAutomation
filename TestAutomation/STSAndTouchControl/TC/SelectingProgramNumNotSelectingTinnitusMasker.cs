@@ -100,7 +100,7 @@ namespace STSAndTouchControl.TC
             // Validation## The setup screen is displayed The app shall send the pairing command
             Report.Log(ReportLevel.Info, "Section", "Validation## The setup screen is displayed The app shall send the pairing command", new RecordItemIndex(6));
             
-            ValidateContentsContains("A confirmation sound played from the hearing aids indicates a successful pairing.\r\n\r\nDid you hear the confirmation sound?", ValueConverter.ArgumentFromString<bool>("isFound", "True"));
+            ValidateContentsContains("A confirmation sound played from the hearing aids indicates a successful pairing.\n\nDid you hear the confirmation sound?", ValueConverter.ArgumentFromString<bool>("isFound", "True"));
             Delay.Milliseconds(0);
             
             // Step## If successful pairing sound comes from HIs, Press Yes.

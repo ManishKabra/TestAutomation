@@ -19,3 +19,10 @@ C:\Framework\TestAutomation\LogCapturer\bin\Debug\Newtonsoft.Json.xml
 C:\Framework\TestAutomation\LogCapturer\obj\Debug\LogCapturer.csprojResolveAssemblyReference.cache
 C:\Framework\TestAutomation\LogCapturer\obj\Debug\LogCapturer.dll
 C:\Framework\TestAutomation\LogCapturer\obj\Debug\LogCapturer.pdb
+C:\New folder\trunk\TestAutomation\LogCapturer\bin\Debug\LogCapturer.dll
+C:\New folder\trunk\TestAutomation\LogCapturer\bin\Debug\LogCapturer.pdb
+C:\New folder\trunk\TestAutomation\LogCapturer\bin\Debug\Newtonsoft.Json.dll
+C:\New folder\trunk\TestAutomation\LogCapturer\bin\Debug\Newtonsoft.Json.xml
+C:\New folder\trunk\TestAutomation\LogCapturer\obj\Debug\LogCapturer.csprojResolveAssemblyReference.cache
+C:\New folder\trunk\TestAutomation\LogCapturer\obj\Debug\LogCapturer.dll
+C:\New folder\trunk\TestAutomation\LogCapturer\obj\Debug\LogCapturer.pdb
